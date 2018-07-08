@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_case"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pranayarora.my1.AddCase">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <EditText
+        android:hint="Case Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Case Details"
+        android:ems="10"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:hint="Case Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Case Title"
+        android:ems="10"
+        android:id="@+id/editText2" />
+
+    <EditText
+        android:hint="Case Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Case Number"
+        android:ems="10"
+        android:id="@+id/editText3" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="69dp">
+
+        <TextView
+            android:text="Case of"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:textSize="30dp"/>
+
+        <Spinner
+            android:layout_width="218dp"
+            android:layout_height="36dp"
+            android:id="@+id/spinner3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="77dp">
+
+        <TextView
+            android:text="Case Type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+            android:textSize="30dp"/>
+
+        <Spinner
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:text="Case stage"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="30dp"/>
+
+        <Spinner
+            android:layout_width="212dp"
+            android:layout_height="43dp"
+            android:id="@+id/spinner5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:hint="Fees Agrees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Fees Agreed"
+            android:ems="10"
+            android:id="@+id/editText4" />
+
+        <EditText
+            android:hint="Tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Tags"
+            android:ems="10"
+            android:id="@+id/editText5" />
+
+        <EditText
+            android:hint="Remarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Remarks"
+            android:ems="10"
+            android:id="@+id/editText6" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="Cancel"
+                android:layout_width="202dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2" />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_hearing"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pranayarora.my1.AddHearing"
+    android:weightSum="1">
+
+    <TextView
+        android:text="HEARING DETAILS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_weight="0.14"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <TextView
+            android:text="Select Case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_weight="1"
+            android:textSize="30dp"/>
+
+        <Spinner
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:layout_weight="0.66" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="62dp">
+
+        <TextView
+            android:text="Previous Date"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/calendar_date"
+            android:id="@+id/imageView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+        <TextView
+            android:text="Next Date"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textSize="20dp" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/calendar_date"
+            android:id="@+id/imageView2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="67dp">
+
+        <TextView
+            android:text="Filing Date"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/calendar_date"
+            android:id="@+id/imageView3" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Opposing Lawyer"
+        android:ems="10"
+        android:id="@+id/editText20"
+        android:layout_weight="0.14"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Appearing Lawyer"
+        android:ems="10"
+        android:id="@+id/editText21"
+        android:layout_weight="0.14"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="126dp">
+
+        <Button
+            android:text="Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button9"
+            android:layout_weight="1"
+            android:textSize="20dp"/>
+
+        <Button
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button10"
+            android:layout_weight="1"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
